@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+
+<html>
+    <body>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/5471644867.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="./css/main.css">
+        <link rel="stylesheet" type="text/css" href="./css/home.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet" />
+        
+        <!-- //manifest -->
+        <link rel="shortcut icon" href="images/newlogo.png"/>
+        <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+        <link rel="manifest" href="./site.webmanifest">
+        <link rel="mask-icon" href="./safari-pinned-tab.svg" color="#5bbad5">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="theme-color" content="#ffffff">
+
+
+        <title>Home</title>
+    </head>
+<!-- navigation menu  -->
+<header>
+    <!-- Navigation Section -->
+
+    <input type="checkbox" id="bars">
+    <nav class="nav-bar" id="navbar">
+        <div class="content">
+             <!-- Logo link -->
+            <a href="./home.html"><img src="./images/newlogo.png" class="logo" alt="logo" /></a>
+            <ul class="navigation">
+                <li class="link"><a href="./home.html">|Home|</a></li>
+
+                <li class="link"><a href="./aboutus.html">|About Us|</a></li>
+
+                <li class="link"><a href="#">|Categories|<i class="fas fa-caret-down"></i></a>
+                    <ul class="sub-nav">
+                        <li class="link"><a href="./dairycatergory.html">|Dairy Products|</a></li>
+                        <li class="link"><a href="./babycarecatergory.html">|Baby Care|</a></li>
+                    </ul>
+                </li>
+                <li class="link"><a href="#">|Cosmetics & Skincare|<i class="fas fa-caret-down"></i></a>
+                    <ul class="sub-nav">
+                        <li class="link"><a href="./skincare.html">|Skin Care|</a></li>
+                        <li class="link"><a href="./haircare.html">|Hair Care|</a></li>
+                        <li class="link"><a href="./cosmetics.html">|Cosmetics|</a></li>
+                    </ul>
+                </li>
+                <li class="link"><a href="#">|Fresh Produce|<i class="fas fa-caret-down"></i></a>
+                    <ul class="sub-nav">
+                        <li class="link"><a href="./fruit.html">|Fruits|</a></li>
+                        <li class="link"><a href="./vegetable.html">|Vegetables|</a></li>
+                        <li class="link"><a href="./fishandmeat.html">|Fish & Meat|</a></li>
+                    </ul>
+                </li>
+                
+                <li class="link"><a href="./order.html">|Order|</a></li>
+
+                <li class="link"><a href="#">|Sign Up|<i class="fas fa-caret-down"></i></a>
+                    <ul class="sub-nav">
+                        <li class="link"><a href="./memberlogin.html">|Login|</a></li>
+                        <li class="link"><a href="./loyaltyregistration.html">|Loyalty Registration|</a></li>
+                    </ul>
+                </li>
+                
+
+
+
+            </ul>
+
+            <label for='bars' class="icon-bars"><i class="ri-menu-line"></i></label>
+        </div>
+    </nav>
+
+</header>
+<!-- end of navigation menu -->
+
+             
+               
+               
+
+        <!--Search-banner-->
+            <section id="search-banner">
+        <!--background-->
+                <img alt="bg" class="bg-1" src="./images/pineapple.png">
+                <img alt="bg-2" class="bg-2" src="./images/food.png">
+        <!--search banner text-->
+                <div class="search-banner-text">
+                    <h1>
+                        Fetch your essentials
+                    </h1>
+                    <strong>
+                        @ GreenGrocers
+                    </strong>
+    
+        <!--search-box-->
+                    <form action="" class="search-box">
+        <!--search icon-->
+                        <i class="fas fa-search"></i>
+        <!--input--->
+                        <input type="text" class="search-input" placeholder="Search" name="search" size = "80px" required>
+        <!--search button-->
+                        <input type="submit" class="search-btn" value="Search">
+                    </form>
+                </div>
+            </section>
+        <!--search-banner-end-->
+    
+
+
+
+
+        <!--category section-->
+            <section id="category">
+        <!--catergory heading-->
+                <div class="category-heading">
+                    <h2>
+                        Categories
+                    </h2>
+                </div>
+        <!--catergory box container-->
+                <div class="category-container">
+        <!--box-fruits-->
+                    <a class="category-box" href = './fruits.html'>
+                        <img alt="Fruits and Vegetables" src="./images/apple logo.png">
+                        <span>Fruits</span>
+                    </a>
+        <!--box-vegetables-->
+                    <a class="category-box" href = './vegetables.html'>
+                        <img alt="Vegetables" src="./images/carrot transparent.png">
+                        <span>Vegetables</span>
+                    </a>
+        <!--box-dairy products-->
+                    <a class="category-box" href = './dairycatergory.html'>
+                        <img alt="dairy products" src="./images/dairy icon.png">
+                        <span>Dairy products</span>
+                    </a>
+        <!--box-baby care-->
+                    <a class="category-box" href="./babycarecatergory.html">
+                        <img alt="" src="./images/baby.png">
+                        <span>Baby Care</span>
+                    </a>
+        <!--box-Fish and meat-->
+                    <a class="category-box" href = './fishandmeat.html'>
+                        <img alt="Fish & Meat" src="./images/fish.png">
+                        <span>Fish & Meat</span>
+                    </a>
+        <!--box-beauty-->
+                    <a class="category-box" href = './cosmetics.html'>
+                        <img alt="Cosmetics" src="./images/beauty.png">
+                        <span>Cosmetics <br> & Skincare</span>
+                    </a>
+                    
+       
+                </div>
+            </section>
+        <!--category section end-->
+
+        <!--Popular products section-->
+            <section id="popular-product">
+            <!--popular products heading-->
+                <div class="product-heading">
+                    <h3>Popular Product</h3>
+                </div>
+        <!--popular products box container-->
+                <div class="product-container">
+        <!--box-product-01-->
+                    <div class="product-box">
+                        <img alt="apple" src="./images/APPLE - PRODUCT.png">
+                        <strong>Apple</strong>
+                        <span class="quantity">1 KG</span>
+                        <span class="price">Rs. 2800</span>
+        <!--cart-btn-->
+                        <a href="Shopping Cart HTML.html" class="cart-btn">
+                            <i class="fas fa-shopping-bag"></i> Add to Cart
+                        </a>
+        <!--like-btn-->
+                        <a class="like-btn">
+                            <i class="far fa-heart"></i>
+                        </a>
+                    </div>
+        <!--box-product-02-->
+                    <div class="product-box">
+                        <img alt="chili" src="./images/NewIMG/chillie transparent.png">
+                        <strong>Chili</strong>
+                        <span class="quantity">1 KG</span>
+                        <span class="price">Rs. 700</span>
+        <!--cart-btn-->
+                        <a href="Shopping Cart HTML.html" class="cart-btn">
+                            <i class="fas fa-shopping-bag"></i> Add to Cart
+                        </a>
+        <!--like-btn-->
+                        <a class="like-btn">
+                            <i class="far fa-heart"></i>
+                        </a>
+                    </div>
+        <!--box-product-03-->
+                    <div class="product-box">
+                        <img alt="cheese" src="./images/CHEESE-PRODUCT.png">
+                        <strong>Cheese</strong>
+                        <span class="quantity">1 KG</span>
+                        <span class="price">Rs. 4500.00</span>
+        <!--cart-btn-->
+                        <a href="Shopping Cart HTML.html" class="cart-btn">
+                            <i class="fas fa-shopping-bag"></i> Add to Cart
+                        </a>
+        <!--like-btn-->
+                        <a class="like-btn">
+                            <i class="far fa-heart"></i>
+                        </a>
+                    </div>
+        <!--box-product-04-->
+                    <div class="product-box">
+                        <img alt="beef" src="./images/beef.png">
+                        <strong>Beef</strong>
+                        <span class="quantity">1 KG</span>
+                        <span class="price">Rs. 3000.00</span>
+        <!--cart-btn-->
+                        <a href="Shopping Cart HTML.html" class="cart-btn">
+                            <i class="fas fa-shopping-bag"></i> Add to Cart
+                        </a>
+        <!--like-btn-->
+                        <a class="like-btn">
+                            <i class="far fa-heart"></i>
+                        </a>
+                    </div>
+        <!--box-product-05-->
+                    <div class="product-box">
+                        <img alt="sunscreen" src="./images/SUNSCREEN-PRODUCT.png">
+                        <strong>Sun Screen</strong>
+                        <span class="quantity">1 </span>
+                        <span class="price">Rs. 2590.00</span>
+        <!--cart-btn-->
+                        <a href="#" class="cart-btn">
+                            <i class="fas fa-shopping-bag"></i> Add to Cart
+                        </a>
+        <!--like-btn-->
+                        <a class="like-btn">
+                            <i class="far fa-heart"></i>
+                        </a>
+                    </div>
+        <!--box-product-06-->
+                    <div class="product-box">
+                        <img alt="apple" src="./images/BABY BOTTLE-PROCUCT.png">
+                        <strong>Baby Bottle</strong>
+                        <span class="quantity">1</span>
+                        <span class="price">Rs. 380</span>
+        <!--cart-btn-->
+                        <a href="Shopping Cart HTML.html" class="cart-btn">
+                            <i class="fas fa-shopping-bag"></i> Add to Cart
+                        </a>
+        <!--like-btn-->
+                        <a class="like-btn">
+                            <i class="far fa-heart"></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+        <!--popular product section end-->
+
+        <!--Popular bundle pack section-->
+            <section id="popular-bundle-pack">
+        <!--popular bundle pack heading-->
+                <div class="product-heading">
+                    <h3>Popular Bundle Pack</h3>
+                </div>
+        <!--popular bundle pack box container-->
+                <div class="product-container">
+        <!--bundle-pack-01-->
+                    <div class="product-box">
+                        <img alt="pack" src="./images/hamper1.webp">
+                        <strong>Essential Pack</strong>
+                        <span class="quantity">Cereal, Milk, Juice,+4</span>
+                        <span class="price">Rs. 2000</span>
+        <!--cart-btn-->
+                        <a href="Shopping Cart HTML.html" class="cart-btn">
+                            <i class="fas fa-shopping-bag"></i> Add to Cart
+                        </a>
+        <!--like-btn-->
+                        <a class="like-btn">
+                            <i class="far fa-heart"></i>
+                        </a>
+                    </div>
+        <!--bundle-pack-02-->
+                    <div class="product-box">
+                        <img alt="apple" src="/images/hamper2.webp">
+                        <strong>Sweet Pack</strong>
+                        <span class="quantity">Chocolates, Vine, Cheese,+2</span>
+                        <span class="price">Rs. 4500</span>
+        <!--cart-btn-->
+                        <a href="Shopping Cart HTML.html" class="cart-btn">
+                            <i class="fas fa-shopping-bag"></i> Add to Cart
+                        </a>
+        <!--like-btn-->
+                        <a class="like-btn">
+                            <i class="far fa-heart"></i>
+                        </a>
+                    </div>
+        <!--bundle-pack-03-->
+                    <div class="product-box">
+                        <img alt="apple" src="./images/hamper3.webp">
+                        <strong>Small Pack</strong>
+                        <span class="quantity">Bread, Crackers, Margerine, +3</span>
+                        <span class="price">Rs. 1850</span>
+        <!--cart-btn-->
+                        <a href="Shopping Cart HTML.html" class="cart-btn">
+                            <i class="fas fa-shopping-bag"></i> Add to Cart
+                        </a>
+        <!--like-btn-->
+                        <a class="like-btn">
+                            <i class="far fa-heart"></i>
+                        </a>
+                    </div>
+        <!--bundle-pack-04-->
+                    <div class="product-box">
+                        <img alt="pack" src="./images/hamper4.jpeg">
+                        <strong>Big Pack</strong>
+                        <span class="quantity">Rice, Ketchup, Cordial,+4</span>
+                        <span class="price">Rs. 7500</span>
+        <!--cart-btn-->
+                        <a href="Shopping Cart HTML.html" class="cart-btn">
+                            <i class="fas fa-shopping-bag"></i> Add to Cart
+                        </a>
+        <!--like-btn-->
+                        <a class="like-btn">
+                            <i class="far fa-heart"></i>
+                        </a>
+                    </div>
+        <!--bundle-pack-05-->
+                    <div class="product-box">
+                        <img alt="apple" src="./images/hamper5.png">
+                        <strong>Supreme Pack</strong>
+                        <span class="quantity">Vine, Beer, Cashew,+2</span>
+                        <span class="price">Rs. 10000</span>
+        <!--cart-btn-->
+                        <a href="Shopping Cart HTML.html" class="cart-btn">
+                            <i class="fas fa-shopping-bag"></i> Add to Cart
+                        </a>
+        <!--like-btn-->
+                        <a class="like-btn">
+                            <i class="far fa-heart"></i>
+                        </a>
+                    </div>
+        <!--bundle-pack-06-->
+                    <div class="product-box">
+                        <img alt="apple" src="./images/hamper6.jpg">
+                        <strong>Healthy Pack</strong>
+                        <span class="quantity">Fruits, Protein Milk, Diet Crackers</span>
+                        <span class="price">Rs. 5000</span>
+        <!--cart-btn-->
+                        <a href="Shopping Cart HTML.html" class="cart-btn">
+                            <i class="fas fa-shopping-bag"></i> Add to Cart
+                        </a>
+        <!--like-btn-->
+                        <a class="like-btn">
+                            <i class="far fa-heart"></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+        <!--popular-bundle pack section end-->
+
+        <!--Client Reviews-->
+            <section id="clients">
+        <!--client reviews heading-->
+                <div class="client-heading">
+                    <h3>Customer Reviews</h3>
+                </div>
+        <!--client reviews box container-->
+                <div class="client-box-container">
+        <!--client review-box01-->
+                    <div class="client-box">
+        <!--client profile-->
+                        <div class="client-profile">
+        <!--client img--->
+                            <img alt="client" src="./images/client-1.jpg">
+        <!--client profile text-->
+                            <div class="profile-text">
+                                <strong>Enid P.</strong>
+                                
+                            </div>
+                        </div>
+        <!--Rating-->
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+        <!--client comments-->
+                        <p>Green Grocers is a lifesaver for busy families like mine! Their selection of fresh 
+                            produce is incredible, and everything arrives at my doorstep perfectly ripe and ready 
+                            to eat. Plus, their online ordering system is so easy to use. I won't be going back to
+                             the crowded supermarket anytime soon!</Str></p>
+                    </div>
+        <!--client review-box02-->
+                    <div class="client-box">
+        <!--client profile-->
+                        <div class="client-profile">
+        <!--client img--->
+                            <img alt="client" src="./images/client-2.jpg">
+        <!--client profile text-->
+                            <div class="profile-text">
+                                <strong>Nikina M.</strong>
+                                
+                            </div>
+                        </div>
+        <!--Rating-->
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+        <!--client comments-->
+                        <p>Great quality fruits and veggies, delivered straight to my apartment. 
+                            Super convenient, especially for someone who lives downtown. Prices are a bit 
+                            higher than the regular grocery store, but the quality makes up for it. Just wish 
+                            there was a wider selection of non-produce items.</p>
+                    </div>
+        <!--client review-box03-->
+                    <div class="client-box">
+        <!--client profile-->
+                        <div class="client-profile">
+        <!--client img--->
+                            <img alt="client" src="./images/client-3.jpg">
+        <!--client profile text-->
+                            <div class="profile-text">
+                                <strong>Thamara V.</strong>
+                                
+                            </div>
+                        </div>
+        <!--Rating-->
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+        <!--client comments-->
+                        <p>I love that Green Grocers sources their produce from local farms! 
+                            It feels good to support sustainable agriculture and know exactly 
+                            where my food is coming from. The heirloom tomatoes I got last week
+                             were the best I've ever tasted!</p>
+                    </div>
+                </div>
+            </section>
+        <!--client review section end -->
+
+        <!--download app section-->
+            <section id="download-app">
+        <!--app image-->
+                <div class="app-img">
+                    <img alt="app" src="./images/app.png">
+                </div>
+        <!--download app text -->
+                <div class="download-app-text">
+                    <strong>Download App</strong>
+                    <p>Grocery shopping made easier. Now, you don't need to open the website for placing orders. Download the <b>Green Grocers</b> app from Play Store and App Store to start shopping easily and faster. <br> HAPPY SHOPPING!</b></p>
+        <!--download app buttons-->
+                    <div class="download-btns">
+                        <a href="https://www.apple.com/in/app-store/"><img alt="" src="./images/appstore-btn.png"></a>
+                        <a href="https://play.google.com/store"><img alt="" src="./images/googleplay-btn.png"></a>
+                    </div>
+                </div>
+            </section>
+        <!--download app section end-->
+        
+
+        <!--Footer-->
+            <footer>
+                <div class="footer-container">
+        <!--footer logo container-->
+                    <div class="footer-logo">
+                        <a href="./images/grocery logo.png"><span>Greeen</span>Grocers</a>
+        <!--socisl links-->
+                        <div class="footer-social">
+                            <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://twitter.com/?lang=en-in"><i class="fab fa-twitter"></i></a>
+                            <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                            <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
+                        
+                        </div>
+                    </div>
+        <!--footer links-product-->
+                <div class="footer-links">
+                    <strong>Product</strong>
+                    <ul>
+                        <li><a href="#">Grocery</a></li>
+                        <li><a href="#popular-bundle-pack">Packs</a></li>
+                        <li><a href="#popular-product">Popular</a></li>
+                        <li><a href="#search-banner">Search</a></li>
+                    </ul>
+                </div>
+        <!--footer links-catergory-->
+                <div class="footer-links">
+                    <strong>Category</strong>
+                    <ul>
+                        <li><a href="./dairycatergory.html">Dairy</a></li>
+                        <li><a href="./vegetables.html">Vegetables</a></li>
+                        <li><a href="./fruits.html">Fruits</a></li>
+                        <li><a href="./fishandmeat.html">Fish & Meat</a></li>
+                        <li><a href="./skincare.html">Skincare</a></li>
+                        <li><a href="./haircare.html">Haircare</a></li>
+                        <li><a href="./cosmetics.html">Cosmetics</a></li>
+                        <li><a href="./babycarecatergory.html">Baby Care<a></li>
+                    </ul>
+                </div>
+        <!--footer links-contact-->
+                <div class="footer-links">
+                    <strong>Contact</strong>
+                    <ul>
+                        <li><a href="#">Phone : +94759015289</a></li>
+                        <li><a href="#">Email : greengrocers24@gmail.com</a></li>
+                        <li><a href="./aboutus.html">About Us</a></li>
+                    </ul>
+                    <br><p style="color:aliceblue;">Powered by Nathumini Jayathilake 2024</p>
+                </div>
+                </div>
+            </footer>
+
+
+        </body>
+    </html>
